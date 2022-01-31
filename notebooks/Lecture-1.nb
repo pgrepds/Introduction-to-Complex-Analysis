@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     23448,        574]
-NotebookOptionsPosition[     22181,        542]
-NotebookOutlinePosition[     22578,        558]
-CellTagsIndexPosition[     22535,        555]
+NotebookDataLength[     24576,        606]
+NotebookOptionsPosition[     22994,        569]
+NotebookOutlinePosition[     23391,        585]
+CellTagsIndexPosition[     23348,        582]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -536,6 +536,33 @@ Cell[BoxData[
   RowBox[{"x", "\[Equal]", "2"}]}]], "Output",
  CellChangeTimes->{3.85256677446681*^9},
  CellLabel->"Out[4]=",ExpressionUUID->"35b8a9a0-f216-490e-9c98-b7ce7f8403ad"]
+}, Open  ]],
+
+Cell["\<\
+Calculate the principle argument of a complex number is easy.\
+\>", "Text",
+ CellChangeTimes->{{3.8525822091721067`*^9, 
+  3.852582223162733*^9}},ExpressionUUID->"17848c92-98ae-4e17-9718-\
+2f5ba83dcc4d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Arg", "[", 
+  RowBox[{
+   RowBox[{"Cos", "[", 
+    RowBox[{"Pi", "/", "3"}], "]"}], "-", 
+   RowBox[{"I", "*", 
+    RowBox[{"Sin", "[", 
+     RowBox[{"Pi", "/", "3"}], "]"}]}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.8525822252844353`*^9, 3.8525822674272127`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"3a287ed7-068d-47ac-b703-193cbc5ef2c0"],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  FractionBox["\[Pi]", "3"]}]], "Output",
+ CellChangeTimes->{3.852582268641117*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"b8313d31-fd18-4b52-952a-856f7bd40e32"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -573,6 +600,11 @@ Cell[20874, 497, 458, 12, 33, "Output",ExpressionUUID->"71784123-91a4-456b-bfd4-
 Cell[CellGroupData[{
 Cell[21369, 514, 336, 9, 29, "Input",ExpressionUUID->"d3f83c16-7bd7-4346-af9e-29a4d78df329"],
 Cell[21708, 525, 433, 12, 33, "Output",ExpressionUUID->"35b8a9a0-f216-490e-9c98-b7ce7f8403ad"]
+}, Open  ]],
+Cell[22156, 540, 213, 5, 37, "Text",ExpressionUUID->"17848c92-98ae-4e17-9718-2f5ba83dcc4d"],
+Cell[CellGroupData[{
+Cell[22394, 549, 367, 9, 32, "Input",ExpressionUUID->"3a287ed7-068d-47ac-b703-193cbc5ef2c0"],
+Cell[22764, 560, 190, 4, 46, "Output",ExpressionUUID->"b8313d31-fd18-4b52-952a-856f7bd40e32"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
